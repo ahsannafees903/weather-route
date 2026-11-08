@@ -1,0 +1,6 @@
+Django>=5.1,<5.3
+django-cors-headers>=4.6,<5
+gunicorn>=23.0,<24
+whitenoise>=6.8,<7
+requests>=2.32,<3
+tzdata>=2024.1

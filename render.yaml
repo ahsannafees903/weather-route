@@ -1,0 +1,25 @@
+# Render blueprint for the Django API. Do not deploy from this file until a
+# Render account exists. The frontend is a separate Vite app; see README.
+services:
+  - type: web
+    name: weather-truck-routing-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput
+    startCommand: gunicorn config.wsgi:application --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: DJANGO_DEBUG
+        value: "false"
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DJANGO_ALLOWED_HOSTS
+        value: "*"
+      - key: CORS_ALLOW_ALL_ORIGINS
+        value: "true"
+      - key: NOMINATIM_USER_AGENT
+        value: "WeatherAwareTruckRouting/1.0 (educational take-home assessment)"
+      - key: NOMINATIM_MIN_INTERVAL
+        value: "1.1"

@@ -1,0 +1,187 @@
+{
+  "generated_for_departure_utc": "2026-11-06T06:00:00Z",
+  "trips": [
+    {
+      "origin": "Denver, Colorado, United States",
+      "destination": "Salt Lake City, Utah, United States",
+      "departure_utc": "2026-11-06T06:00:00Z",
+      "timezone": "UTC",
+      "load_weight_lb": 35000.0,
+      "interval_miles": 25,
+      "recommended_route_id": "A",
+      "notes": [
+        "OSRM returned fewer than 3 alternatives. Additional routes were built by routing through an offset via-waypoint beside the fastest road, then keeping only corridors that stay on a different path."
+      ],
+      "heatmap_points": 86,
+      "heatmap_hours": 49,
+      "routes": [
+        {
+          "id": "A",
+          "source": "osrm",
+          "summary": "I 80 \u00b7 I 25 \u00b7 US 287",
+          "distance_miles": 518.7,
+          "duration_text": "9 h 01 min",
+          "miles": {
+            "no_travel": 0.0,
+            "severe": 0.0,
+            "high": 0.0,
+            "moderate": 0.0,
+            "low": 518.7
+          },
+          "average_risk": 0.0,
+          "recommended": true,
+          "rank": 1,
+          "checkpoints": 22,
+          "levels": {
+            "low": 22,
+            "moderate": 0,
+            "high": 0,
+            "severe": 0,
+            "no_travel": 0
+          }
+        },
+        {
+          "id": "B",
+          "source": "via",
+          "summary": "I 80 \u00b7 WY 28 \u00b7 US 287",
+          "distance_miles": 671.1,
+          "duration_text": "13 h 37 min",
+          "miles": {
+            "no_travel": 0.0,
+            "severe": 0.0,
+            "high": 0.0,
+            "moderate": 0.0,
+            "low": 671.1
+          },
+          "average_risk": 0.0,
+          "recommended": false,
+          "rank": 3,
+          "checkpoints": 28,
+          "levels": {
+            "low": 28,
+            "moderate": 0,
+            "high": 0,
+            "severe": 0,
+            "no_travel": 0
+          }
+        },
+        {
+          "id": "C",
+          "source": "via",
+          "summary": "US 40 \u00b7 I 70 \u00b7 CO 9",
+          "distance_miles": 513.1,
+          "duration_text": "11 h 08 min",
+          "miles": {
+            "no_travel": 0.0,
+            "severe": 0.0,
+            "high": 0.0,
+            "moderate": 0.0,
+            "low": 513.1
+          },
+          "average_risk": 0.0,
+          "recommended": false,
+          "rank": 2,
+          "checkpoints": 22,
+          "levels": {
+            "low": 22,
+            "moderate": 0,
+            "high": 0,
+            "severe": 0,
+            "no_travel": 0
+          }
+        }
+      ]
+    },
+    {
+      "origin": "Chicago, Illinois, United States",
+      "destination": "Dallas, Texas, United States",
+      "departure_utc": "2026-11-06T06:00:00Z",
+      "timezone": "UTC",
+      "load_weight_lb": 35000.0,
+      "interval_miles": 25,
+      "recommended_route_id": "A",
+      "notes": [
+        "OSRM returned fewer than 3 alternatives. Additional routes were built by routing through an offset via-waypoint beside the fastest road, then keeping only corridors that stay on a different path."
+      ],
+      "heatmap_points": 155,
+      "heatmap_hours": 49,
+      "routes": [
+        {
+          "id": "A",
+          "source": "osrm",
+          "summary": "I 57 \u00b7 I 30 \u00b7 I 55",
+          "distance_miles": 966.9,
+          "duration_text": "17 h 06 min",
+          "miles": {
+            "no_travel": 0.0,
+            "severe": 0.0,
+            "high": 0.0,
+            "moderate": 0.0,
+            "low": 966.9
+          },
+          "average_risk": 0.0,
+          "recommended": true,
+          "rank": 1,
+          "checkpoints": 40,
+          "levels": {
+            "low": 40,
+            "moderate": 0,
+            "high": 0,
+            "severe": 0,
+            "no_travel": 0
+          }
+        },
+        {
+          "id": "B",
+          "source": "osrm",
+          "summary": "I 55 \u00b7 I 44 \u00b7 US 69",
+          "distance_miles": 924.6,
+          "duration_text": "17 h 17 min",
+          "miles": {
+            "no_travel": 0.0,
+            "severe": 0.0,
+            "high": 0.0,
+            "moderate": 0.0,
+            "low": 924.6
+          },
+          "average_risk": 0.0,
+          "recommended": false,
+          "rank": 2,
+          "checkpoints": 38,
+          "levels": {
+            "low": 38,
+            "moderate": 0,
+            "high": 0,
+            "severe": 0,
+            "no_travel": 0
+          }
+        },
+        {
+          "id": "C",
+          "source": "via",
+          "summary": "I 57 \u00b7 I 30 \u00b7 I 40",
+          "distance_miles": 1231.6,
+          "duration_text": "23 h 10 min",
+          "miles": {
+            "no_travel": 0.0,
+            "severe": 0.0,
+            "high": 0.0,
+            "moderate": 0.0,
+            "low": 1231.6
+          },
+          "average_risk": 0.0,
+          "recommended": false,
+          "rank": 3,
+          "checkpoints": 51,
+          "levels": {
+            "low": 51,
+            "moderate": 0,
+            "high": 0,
+            "severe": 0,
+            "no_travel": 0
+          }
+        }
+      ]
+    }
+  ]
+}
