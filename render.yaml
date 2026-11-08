@@ -2,6 +2,7 @@
 # Render account exists. The frontend is a separate Vite app; see README.
 services:
   - type: web
+    plan: free
     name: weather-truck-routing-api
     runtime: python
     rootDir: backend
